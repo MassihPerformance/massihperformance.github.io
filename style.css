@@ -15,7 +15,7 @@ a {
     font-size: 18px;
 }
 
-button {
+.nav-btn {
     color: white;
     background-color: #E24E1B;
     font-size: 20px;
@@ -28,14 +28,14 @@ button {
     transition: 0.3s;
 }
 
-button:hover {
+.nav-btn:hover {
     color: black;
     background-color: #DA7635;
     font-size: 20px;
     gap: 10px;
     display: flex;
     align-items: center;
-    padding: 12px 32px;
+    padding: 12px 96px;
     border: none;
     border-radius: 25px;
     transition: 0.3s;
@@ -63,7 +63,7 @@ nav {
     top: 0px;
     background-color: #eeeeee;
     display: flex;
-    gap: 25px;
+    gap: 50px;
     padding: 20px;
 }
 
@@ -79,30 +79,73 @@ nav {
     max-width: 35vw;
 }
 
-.shop-section {
+.gallery {
     display: flex;
-    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dddddd;
+    display: flex;
+    padding: 80px;
+}
+
+.gallery-item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    place-content: center;
+    background-color: #E24E1B;
+    height: 350px;
+    border-radius: 16px;
+    aspect-ratio: 1;
+    transition: 0.3s;
+}
+
+.gallery-item:hover {
+    background-size: 120%;
+    background-color: #DA7635;
+    border-radius: 32px;
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.testimonials {
+    display: flex;
     flex-direction: column;
-    justify-content: start;
     align-items: stretch;
+    padding: 50px;
+    gap: 50px;
 }
 
-.shop-content-wrapper {
+.testimonial {
     display: flex;
-    justify-content: start;
-    align-items: stretch;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+    background-color: #E24E1B;
+    height: 150px;
+    border-radius: 16px;
 }
 
-.shop-header {
-    padding: 10px;
+.testimonial-img {
+    height: 150px;
+    border-radius: 16px;
 }
 
-.shop-sidebar {
+.testimonial-content {
+    color: white;
+    max-width: 35vw;
+}
+
+.testimonial-title {
+    font-size: 32px;
+}
+
+footer {
+    background-color: #eeeeee;
     display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: stretch;
-    gap: 15px;
-    padding: 15px;
-    height: 85vh;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
 }
