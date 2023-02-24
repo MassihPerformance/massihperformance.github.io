@@ -12,7 +12,32 @@
 a {
     color: black;
     text-decoration: none;
-    font-size: 18px;
+}
+
+#standby {
+    color: white;
+    letter-spacing: 15px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(25, 25, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.standby-link {
+    color: white;
+    letter-spacing: 5px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-left: 5px;
+    transition: 0.3s ease;
+}
+
+.standby-link:hover {
+    border-bottom: 1px solid white;
+    transition: 0.3s ease;
 }
 
 .nav-btn {
@@ -48,6 +73,14 @@ h1 {
 
 p {
     font-size: 20px;
+}
+
+.announcements {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #E24E1B;
 }
 
 header {
@@ -133,8 +166,8 @@ nav {
 }
 
 .testimonial-content {
+    padding-right: 25vw;
     color: white;
-    max-width: 35vw;
 }
 
 .testimonial-title {
