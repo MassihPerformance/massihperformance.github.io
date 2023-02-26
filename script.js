@@ -3,7 +3,7 @@ standby = document.getElementById("standby")
 
 const online = true
 
-if(online == false) {
+if(online == true) {
     standby.style.display = "none"
     main.style.display = "block"
 } else {
