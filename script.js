@@ -1,7 +1,7 @@
 main = document.getElementById("main")
 standby = document.getElementById("standby")
 
-const online = true
+const online = false
 
 if(online == true) {
     standby.style.display = "none"
